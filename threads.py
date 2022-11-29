@@ -1,8 +1,6 @@
 import threading
 from time import sleep
 from datetime import datetime
-from sys import stdout
-
 
 def dummy_loop(barrier, event, minutes=1, step_in_seconds=5):
     """Starts a dummy loop to run for certain minutes given
